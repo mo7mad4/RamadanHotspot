@@ -1,0 +1,66 @@
+﻿<html>
+<head>
+<title>::: تم تسجيل الدخول بنجاح :::</title>
+<meta http-equiv="refresh" content="4; url=https://api.whatsapp.com/send?phone=967777936375">
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="expires" content="8">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Language" content="ar-eg">
+  <link rel="stylesheet" type="text/css" href="supernet/style2.css">
+  <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+
+<style>
+<!--
+
+.style1 {
+	text-align: center;
+}
+-->
+</style>
+</head>
+<body onLoad="startClock()">
+
+<div class="boxed-margin2" >
+
+
+
+
+<div class="page-content">
+<div class="row2 clearfix">
+
+	<p align="center"><span lang="en-us">&nbsp;</span><font color="#FF0000" style="font-size: 32pt">تم تسجيل الدخـول بنجاح<span lang="en-us">
+	</span></font><font size="7" color="#FF0000">&nbsp;</font><br />
+<img style="width: 100px; height: 50px;" alt="" src="images/1.png"></p>
+	<p align="center"><span lang="en-us">&nbsp;&nbsp;&nbsp; </span></p>
+	<span class="auto-style2" style=" font-size: 18px; color:#D9582D;"></div>
+<center>
+<tr>
+<td align="center" valign="middle">
+<table class="tabula" border="1" width="343">  
+<tr><td align="right"><b>رمز الدخول</b></td><td>
+	<font color="#0000FF" size="2">$(username)</font></td></tr>
+$(if session-time-left)
+<tr><td align="right">
+	<p align="center"><font color="#FF0000" size="4"><b>الوقت 
+	المتبقي لديك</b></font></td><td>
+	<b>
+	<font color="#FF0000" style="font-size: 12pt">$(session-time-left) / $(uptime)</font></b></td></tr>
+$(endif)
+<tr><td align="right"><font color="#800000" size="4"><span lang="ar-sa"><b>
+	الميجا المتبقي لديك</b></span></font></td><td>
+	<b><font color="#800000" size="4">$(remain-bytes-total-nice)</font></b></td></tr>
+</table>
+$(if login-by-mac != 'yes')
+<br>
+<!-- user manager link. if user manager resides on other router, replace $(hostname) by its address
+<button onclick="document.location='http://$(hostname)/user?subs='; return false;">alogin</button>
+<!-- end of user manager link -->
+&nbsp;$(endif)
+</form>
+</td>
+</table>
+</div>
+</div>
+
+</body>
+</html>
