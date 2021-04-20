@@ -1,3 +1,3 @@
 # RamadanHotspot
 
-##   <a href="https://mo7mad4.github.io/RamadanHotspot">live link</a>
+## live link// https://mo7mad4.github.io/RamadanHotspot
